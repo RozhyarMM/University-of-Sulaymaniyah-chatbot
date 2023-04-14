@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># Science and Education #</pattern>
+	    <template>
+	        Science and Education has the following departments
+	        
+	        <button>
+	            <text>College of Science</text>
+	            <postback>College of Science</postback>
+            </button>
+            
+            <button>
+                <text>College of Education</text>
+                <postback>College of Education</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<!-- Science College Here -->
+	<category>
+	    <pattern># College of Science #</pattern>
+	    <template>
+	        The College of Science at the University of Sulaimani endeavors to be the premier source for science education in the Sulaimani local community and the Kurdistan region in general.
+	        <delay>2</delay>
+	        The College attempts to be a regional center for science education and innovation which develops appropriate educational programs of high quality for the undergraduate program and creative and advanced postgraduate programs to satisfy the growing emerging needs of the region for qualified, skilled, and professional graduates.
+	        <button>
+	            <text>Find More</text>
+	            <url>https://sites.google.com/a/univsul.edu.iq/school-of-science/about-school</url>
+            </button>
+	    </template>
+    </category>
+	
+	<!-- Education College Here -->
+	<category>
+	    <pattern># College of Education #</pattern>
+	    <template>
+	        College of education originally named Science Education School was established on Saturday 30th June 2007 according to Decision Number 209 of Ministry of Education of Kurdistan Regional Government.
+	        <delay>2</delay> 
+	        The School of Science Education School, firstly, had two departments which were physics and mathematics in 2007. In 2014, two new departments established namely department of chemistry and biology. 
+	        Hence, the school has four departments. In academic year 2007-2008 students started their study and until now five graduation ceremonies has taken place in the school.
+	        <delay>2</delay>
+	        The aim of our school is to provide professional teacher to the secondary schools. Students will be studying practical and theoretical aspects of their chosen subject, as well as studying teaching methods, psychology and as part of their final year students will practice teaching in secondary schools.
+	    
+	    <button>
+	        <text>Read More</text>
+	        <url>http://edu.univsul.edu.iq/</url>
+        </button>
+	    </template>
+    </category>
+	
+	<!-- insert your AIML categories here -->
+</aiml>

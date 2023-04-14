@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+  <category>
+        <pattern>^ COLLEGE ^</pattern>
+        <template>University of Sulaimani (UoS) was first established in 1968, the main campus is located in the city of Sulaimani in Kurdistan of Iraq.
+        Today University of Sulaimani includes (19) Colleges, students obtain BSc and BA degrees in various fields of study.
+        here are some of faculties:
+
+        <button>
+           <text>Medical Sciences</text>
+           <postback>Medical Sciences</postback>
+        </button>
+        
+        <button>
+           <text>College of Engineering</text>
+           <postback>College of Engineering</postback>
+        </button>
+        
+        <button>
+           <text>Science and Education</text>
+           <postback>Science and Education</postback>
+        </button>
+        
+        <button>
+           <text>College of Agricultural Engineering Sciences</text>
+           <postback>College of Agricultural Engineering Sciences</postback>
+        </button>
+        
+        <button>
+           <text>College of Administration and Economics</text>
+           <postback>College of Administration and Economics</postback>
+        </button>
+        
+        <button>
+           <text>Language and Humanities</text>
+           <postback>Language and Humanities</postback>
+        </button>
+
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ DEPARTMENT ^</pattern>
+        <template><srai>^ COLLEGE^</srai></template>
+    </category>
+    
+	<category>
+        <pattern>^ DEPARTMENTS ^</pattern>
+        <template><srai>^ COLLEGE^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ COLLEGES ^</pattern>
+        <template><srai>^ COLLEGE^</srai></template>
+    </category>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- insert your AIML categories here -->
+</aiml>

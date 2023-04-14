@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># College of Administration and Economics #</pattern>
+	    <template>
+	         The College of Administration and Economics is one of the oldest colleges that were established in 1976.
+	         after eight years of the establishment of Sulaimani University in 1968. Due to the importance of this school, it was renewed in 1999
+	         
+	         <button>
+	             <text>Statistics and Informatics Department</text>
+	             <url>http://adm.univsul.edu.iq/ADM-Depts/Statistics</url>
+             </button>
+             
+             <button>
+                 <text>Economics Department</text>
+                 <url>http://adm.univsul.edu.iq/ADM-Depts/Economics</url>
+             </button>
+             
+             <button>
+                 <text>Accounting Department</text>
+                 <url>http://adm.univsul.edu.iq/ADM-Depts/Accounting</url>
+             </button>
+             
+             <button>
+                 <text>Business Management Department</text>
+                 <url>http://adm.univsul.edu.iq/ADM-Depts/Business-Management</url>
+             </button>
+             
+             <button>
+                 <text>Marketing Management Department</text>
+                 <url>http://adm.univsul.edu.iq/ADM-Depts/marketing-management</url>
+             </button>
+	         
+	         <button>
+	             <text>College Website</text>
+	             <url>http://adm.univsul.edu.iq/</url>
+             </button>
+	    </template>
+    </category>
+    
+	<!-- insert your AIML categories here -->
+</aiml>

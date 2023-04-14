@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># Language and Humanities #</pattern>
+	    <template>
+	        Following the re-open of University of Sulaimani in 1992 ,it consisted of four colleges ,including  college of languages ,it consisted of the following Departments ( Kurdish ,Arabic and English), the Islamic studies dep. was opened in academic year 1993-1994 and geography dep. In 1997, the college name was changed into Humanity Studies that year too.
+	        <delay>2</delay>
+	        Both dep. (history and sociology) was opened in 1998-1999. Due to the college expansion it was divided into college of languages and college of humanities.
+	        <button>
+	            <text>College of Language</text>
+	            <postback>College of Language</postback>
+            </button>
+            
+            <button>
+                <text>College of Islamic sciences</text>
+                <postback>College of Islamic sciences</postback>
+            </button>
+            
+            <button>
+                <text>College of Humanities</text>
+                <postback>College of Humanities</postback>
+            </button>
+	    </template>
+    </category>
+
+	<!-- Language College Here -->
+    <category>
+        <pattern># College of Language #</pattern>
+        <template>
+            
+            <button>
+                <text>Department of Kurdish</text>
+                <url>http://lang.univsul.edu.iq/LANG-Depts/kurdish</url>
+            </button>
+            
+            <button>
+                <text>Department of Arabic</text>
+                <url>http://lang.univsul.edu.iq/LANG-Depts/arabic</url>
+            </button>
+            
+            <button>
+                <text>Department of English</text>
+                <url>http://lang.univsul.edu.iq/LANG-Depts/english</url>
+            </button>
+            
+            <button>
+                <text>Department of Translation</text>
+                <url>http://lang.univsul.edu.iq/LANG-Depts/translation</url>
+            </button>
+            
+            <button>
+                <text>Department of Persian</text>
+                <url>http://lang.univsul.edu.iq/LANG-Depts/Persian</url>
+            </button>
+            
+            <button>
+                <text>Read more on College of Languags</text>
+                <url>http://lang.univsul.edu.iq/</url>
+            </button>
+        </template>
+    </category>
+    
+	<!-- Islamic Sciences College Here -->
+    <category>
+        <pattern># College of Islamic sciences #</pattern>
+        <template>
+            Islamic sciences colleges established in 2005, then in 2011 become  a school in faculty of Language and Humanity.
+            
+            <button>
+                <text>Department of Principles of Religion</text>
+                <url>http://isl.univsul.edu.iq/ISL-Depts/Principles-of-Religion</url>
+            </button>
+            
+            <button>
+                <text>Department of Sharia</text>
+                <url>http://isl.univsul.edu.iq/ISL-Depts/sharia</url>
+            </button>
+            
+            <button>
+                <text>Department of Islamic Studies</text>
+                <url>http://isl.univsul.edu.iq/ISL-Depts/Islamic-Studies</url>
+            </button>
+            
+            <button>
+                <text>Department of Religious Education</text>
+                <url>http://isl.univsul.edu.iq/ISL-Depts/religious-education</url>
+            </button>
+        </template>
+    </category>
+    
+	<!-- Humanities College Here -->
+    <category>
+        <pattern># College of Humanities #</pattern>
+        <template>
+            
+            <button>
+                <text>Department of Sociology</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/sociology</url>
+            </button>
+            
+            <button>
+                <text>Department of Media</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/media</url>
+            </button>
+            
+            <button>
+                <text>Department of Geography</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/geography</url>
+            </button>
+            
+            <button>
+                <text>Department of History</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/history</url>
+            </button>
+            
+            <button>
+                <text>Department Of Archaeology</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/archaeology</url>
+            </button>
+            
+            <button>
+                <text>Department Of Social Work</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/social-work</url>
+            </button>
+            
+            <button>
+                <text>Department of Philosophy and Cultural Studies</text>
+                <url>http://hum.univsul.edu.iq/HUM-Depts/philosophy-and-cultural-studies</url>
+            </button>
+            
+            <button>
+                <text>College Website</text>
+                <url>http://hum.univsul.edu.iq/</url>
+            </button>
+        </template>
+    </category>
+    
+	<!-- insert your AIML categories here -->
+</aiml>

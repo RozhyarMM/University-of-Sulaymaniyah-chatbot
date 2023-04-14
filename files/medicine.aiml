@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># Medical Sciences #</pattern>
+	    <template>
+	        Medical Sciences has these collages
+	        
+	        <button>
+	            <text>College of Medicine</text>
+	            <postback>College of Medicine</postback>
+            </button>
+            
+            <button>
+                <text>College of Dentistry</text>
+                <postback>College of Dentistry</postback>
+            </button>
+            
+            <button>
+                <text>College of Pharmacy</text>
+                <postback>College of Pharmacy</postback>
+            </button>
+            
+            <button>
+                <text>College of Nursing</text>
+                <postback>College of Nursing</postback>
+            </button>
+            
+            <button>
+                <text>College of Veterinary Medicine</text>
+                <postback>College of Veterinary Medicine</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<!-- Medince Collage Here -->
+	<category>
+	    <pattern># College of Medicine #</pattern>
+	    <template>
+	        College of medicine has the following departments
+	        
+	        <button>
+	           <text>Anatomy and Histology</text>
+	           <url>https://med.univsul.edu.iq/med-departments/anatomy-and-histology</url>
+            </button>
+           
+            <button>
+               <text>Biochemistry</text>
+               <url>https://med.univsul.edu.iq/med-departments/biochemistry</url>
+            </button>
+           
+            <button>
+               <text>Family and Community Medicine</text>
+               <url>https://med.univsul.edu.iq/med-departments/family-and-community-medicine</url>
+            </button>
+           
+            <button>
+               <text>Medicine</text>
+               <url>https://med.univsul.edu.iq/med-departments/medicine</url>
+            </button>
+	        
+	        <button>
+	            <text>Microbiology</text>
+	            <url>https://med.univsul.edu.iq/med-departments/microbiology</url>
+            </button>
+	        
+	        <button>
+	            <text>Psychiatry</text>
+	            <url>https://med.univsul.edu.iq/med-departments/psychiatry</url>
+            </button>
+	        
+	        <button>
+	            <text>Medical Education</text>
+	            <url>https://med.univsul.edu.iq/med-departments/medical-education</url>
+            </button>
+	        
+	        <button>
+	            <text>Pediatrics</text>
+	            <url>https://med.univsul.edu.iq/med-departments/pediatrics</url>
+            </button>
+	        
+	        <button>
+	            <text>Pharmacology</text>
+	            <url>https://med.univsul.edu.iq/med-departments/pharmacology</url>
+            </button>
+	        
+	        <button>
+	            <text>PHYSIOLOGY</text>
+	            <url>https://med.univsul.edu.iq/med-departments/physiology</url>
+            </button>
+	        
+	        <button>
+	            <text>Surgery</text>
+	            <url>https://med.univsul.edu.iq/med-departments/surgery</url>
+            </button>
+	        
+	        <button>
+	            <text>Pathology</text>
+	            <url>https://med.univsul.edu.iq/med-departments/pathology</url>
+            </button>
+	        
+	    </template>
+    </category>
+    
+    <!-- Dentistry Collage Here -->
+    <category>
+        <pattern># College of Dentistry #</pattern>
+        <template>
+            College of Dentistry has the following branchs
+            
+            <button>
+                <text>Prosthodontics</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Prosthodontics</url>
+            </button>
+            
+            <button>
+                <text>Pedodontics, Orthodontics and Preventive Dentistry</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Pedodontics-Orthodontics-and-Preventive-Dentistry</url>
+            </button>
+            
+            <button>
+                <text>Periodontics</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Periodontics</url>
+            </button>
+            
+            <button>
+                <text>Oral Diagnosis</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Oral-Diagnosis</url>
+            </button>
+            
+            <button>
+                <text>Oral and Maxillofacial Surgery</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Oral-and-Maxillofacial-Surgery</url>
+            </button>
+            
+            <button>
+                <text>Conservative Dentistry</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/Conservative-Dentistry</url>
+            </button>
+            
+            <button>
+                <text>Basic Science</text>
+                <url>http://den.univsul.edu.iq/DEN-Depts/basic-sciences</url>
+            </button>
+            
+        </template>
+    </category>
+	
+	<!-- Pharmacy Collage Here -->
+	<category>
+	    <pattern># College of Pharmacy #</pattern>
+	    <template>
+	         College of Pharmacy has the following departments
+	         
+	         <button>
+	             <text>Pharmaceutics</text>
+	             <url>http://pha.univsul.edu.iq/PHA-Depts/Pharmaceutics</url>
+             </button>
+             
+             <button>
+                 <text>Clinical Pharmacy</text>
+                 <url>http://pha.univsul.edu.iq/PHA-Depts/Clinical-Pharmacy</url>
+             </button>
+             
+             <button>
+                 <text>Biochemistry and Clinical chemistry</text>
+                 <url>http://pha.univsul.edu.iq/PHA-Depts/Clinical-Biochemistry</url>
+             </button>
+             
+             <button>
+                 <text>Pharmacognosy and Pharmaceutical Chemistry</text>
+                 <url>http://pha.univsul.edu.iq/PHA-Depts/Pharmacognosy-Medicinal-Chemistry</url>
+             </button>
+             
+             <button>
+                 <text>Pharmacology and Toxicology</text>
+                 <url>http://pha.univsul.edu.iq/PHA-Depts/Pharmacology-Toxicology</url>
+             </button>
+             
+	    </template>
+    </category>
+    
+    <!-- Nursing Collage Here -->
+    <category>
+        <pattern># College of Nursing #</pattern>
+        <template>
+            College of Nursing is one of the medical colleges at University of Sulaimany.
+            It was established in 2000 and started registration for the first-round students by 2001.
+            <delay>1</delay>
+            Since then the college has started with preparing and graduating Nursing Students to provide patient care in different health care settings in the Kurdistan region, including hospitals and primary health care centers.
+            
+            <button>
+                <text>Find more</text>
+                <url>http://nur.univsul.edu.iq/</url>
+            </button>
+        </template>
+    </category>
+    
+    <!-- Veterinary Collage Here -->
+    <category>
+        <pattern>College of Veterinary Medicine</pattern>
+        <template>
+            The College of Veterinary Medicine at Sulaimaniyah Governorate was established in 1995 after re-establishment of Sulaimani University in 1992, realizing the urgent need for adequate protection for livestock in the governorate from contagious diseases.
+            
+            <button>
+                <text>Find More</text>
+                <url>http://ver.univsul.edu.iq/</url>
+            </button>
+        </template>
+    </category>
+    
+    
+	<!-- insert your AIML categories here -->
+</aiml>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+		<category>
+        <pattern>^ Hi ^</pattern>
+            <template>
+                <random>
+                    <li>Hi! Welcome to UoS chatbot!</li>
+                    <li>Hello! This is UoS chatbot!</li>
+                    <li>Hey! Welcome, I'm UoS chatbot!</li>
+                </random>
+                <delay>1</delay>
+                Please when you use this chat bot refer to University of Sulaymaniyah as UoS
+                <delay>1</delay>
+                here is what I can helo you with.
+                
+                <button>
+                    <text>General Information about UoS</text>
+                    <postback>About</postback>
+                </button>
+                
+                <button>
+                    <text>Colleges</text>
+                    <postback>Colleges</postback>
+                </button>
+            </template>
+    </category>
+    
+	<category>
+        <pattern>^ Hey ^</pattern>
+            <template>
+                <random>
+                    <li>Hi! Welcome to UoS chatbot!</li>
+                    <li>Hello! This is UoS chatbot!</li>
+                    <li>Hey! Welcome, I'm UoS chatbot!</li>
+                </random>
+                <delay>1</delay>
+                Please when you use this chat bot refer to University of Sulaymaniyah as UoS
+                <delay>1</delay>
+                here is what I can helo you with.
+                
+                <button>
+                    <text>General Information about UoS</text>
+                    <postback>About</postback>
+                </button>
+                
+                <button>
+                    <text>Colleges</text>
+                    <postback>Colleges</postback>
+                </button>
+            </template>
+    </category>
+
+	<category>
+        <pattern>^ Hello ^</pattern>
+            <template>
+                <random>
+                    <li>Hi! Welcome to UoS chatbot!</li>
+                    <li>Hello! This is UoS chatbot!</li>
+                    <li>Hey! Welcome, I'm UoS chatbot!</li>
+                </random>
+                <delay>1</delay>
+                Please when you use this chat bot refer to University of Sulaymaniyah as UoS
+                <delay>1</delay>
+                here is what I can helo you with.
+                
+                <button>
+                    <text>General Information about UoS</text>
+                    <postback>About</postback>
+                </button>
+                
+                <button>
+                    <text>Colleges</text>
+                    <postback>Colleges</postback>
+                </button>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>^ My name is *</pattern>
+            <template>
+                Nice to meet you <set name="firstname"><star index="2"/></set>.
+            </template>
+    </category>
+    
+    <category>
+        <pattern>^ I'm *</pattern>
+            <template>
+                Great to see you <star index="1"/>.
+            </template>
+    </category>
+    
+    <category>
+        <pattern>^ Im *</pattern>
+            <template>
+                Great to see you <star index="1"/>.
+            </template>
+    </category>
+
+    <category>
+        <pattern>^ I am *</pattern>
+            <template>
+                Great to see you <star index="1"/>.
+            </template>
+    </category>
+    <category>
+        <pattern>WHAT IS MY NAME *</pattern>
+        <template>Your name is <get name="firstname"></get></template>
+    </category>
+    <category>
+        <pattern>Who am I *</pattern>
+        <template>Your are <get name="firstname"></get></template>
+    </category>
+
+	<!-- insert your AIML categories here -->
+</aiml>

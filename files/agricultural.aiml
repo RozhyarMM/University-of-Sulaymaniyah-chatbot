@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># College of Agricultural Engineering Sciences #</pattern>
+	    <template>
+	        Which college are you looking for
+	        
+	        <button>
+	            <text>College of Law</text>
+	            <postback>College of Law</postback>
+            </button>
+            
+            <button>
+                <text>College of Political Sciences</text>
+                <postback>College of Political Sciences</postback>
+            </button>
+            
+            <button>
+                <text>Website</text>
+                <url>http://agr.univsul.edu.iq/</url>
+            </button>
+	    </template>
+    </category>
+
+    <!-- Law College Here -->	
+	<category>
+	    <pattern># College of Law #</pattern>
+	    <template>
+	        The College of Law was established in 1998. Currently, it has only law department (Morning and Evening)
+	        Since its establishment, 3338 students have graduated, earning Bachelor degree in Law,  in addition to hundreds of postgraduate awards.
+	        
+	        <button>
+	            <text>Read more on the website</text>
+	            <url>http://law.univsul.edu.iq/</url>
+            </button>
+	    </template>
+    </category>
+	
+	<!-- Political College Here -->
+	<category>
+	    <pattern># College of Political Sciences #</pattern>
+	    <template>
+	        The College of Political Sciences was established in 2003.
+	        <delay>2</delay>
+	        Since its establishment, more than 1000 students have graduated, earning degrees of Bachelor in Political Sciences in addition to tens of postgraduate awards.
+	        Currently, it has 300 undergraduate students, and 11 postgraduate students.  It consists of two departments:
+	        
+	        <button>
+	            <text>Department of Political Sciences (DPS)</text>
+	            <url>http://pol.univsul.edu.iq/departments/department-of-politics</url>
+            </button>
+            
+            <button>
+                <text>Department of Politics and International Relations (DPIR)</text>
+                <url>http://pol.univsul.edu.iq/departments/politics-international-relations</url>
+            </button>
+            
+            <button>
+                <text>Read more</text>
+                <url>http://pol.univsul.edu.iq/</url>
+            </button>
+	    </template>
+    </category>
+	<!-- insert your AIML categories here -->
+</aiml>

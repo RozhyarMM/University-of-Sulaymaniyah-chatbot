@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern># College of Engineering #</pattern>
+	    <template>
+	        College of Engineering (CoE) was one of the three colleges opened with the establishment of the University of Sulaimani in 1968.
+	        <delay>1</delay>
+	        The college started with the Department of Civil Engineering, which admitted 44 students for the first academic year of (1968-1969).
+	        <delay>2</delay>
+	        The first graduated BSc class was in (1971-1972). The number of students was steadily increasing throughout the years that followed.
+	        By (1981), 1451 students graduated in 10 BSc classes from the School.
+	        <link>
+	            <text>you can find more on it here</text>
+	            <url>https://eng.univsul.edu.iq/</url>
+            </link>
+            <button>
+                <text>Engineering Departments</text>
+                <postback>Engineering Departments</postback>
+            </button>
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>#Engineering Departments #</pattern>
+	    <template>
+	            
+	       <button>
+	           <text>Civil</text>
+	           <url>https://eng.univsul.edu.iq/departments/civil</url>
+           </button>
+           
+           <button>
+               <text>Electrical</text>
+               <url>https://eng.univsul.edu.iq/departments/electrical</url>
+           </button>
+           
+           <button>
+               <text>Water Resources</text>
+               <url>https://eng.univsul.edu.iq/departments/water-resources</url>
+           </button>
+           
+           <button>
+               <text>Architecture</text>
+               <url>https://eng.univsul.edu.iq/departments/architecture</url>
+           </button>
+	    </template>
+    </category>
+	
+	<!-- insert your AIML categories here -->
+</aiml>

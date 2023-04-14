@@ -1,0 +1,23 @@
+
+<aiml>
+  <category>
+    <pattern>*</pattern>
+            <template>
+                Sorry I don't understant your query
+                here are the topics I can help you with
+                please chose either of them or write your question again
+                PS: refer to University of Slemani as  UoS
+                <button>
+                    <text>General Information about UoS</text>
+                    <postback>About</postback>
+                </button>
+                
+                <button>
+                    <text>Colleges</text>
+                    <postback>Colleges</postback>
+                </button>
+                
+            </template>
+  </category>
+  
+</aiml>

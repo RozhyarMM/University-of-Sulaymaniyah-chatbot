@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+    
+    <category>
+        <pattern>^ About ^</pattern>
+        <template>
+        University of Sulaimani (UoS) was first established in 1968, the main campus is located in the city of Sulaimani in Kurdistan of Iraq. In the beginning there were only three colleges but during the years that followed, the number of the colleges increased dramatically as the result of growing demands of higher education in the country. 
+        In 1981, the former Iraqi regime transferred this academic establishment to the city of Erbil (Hawler) and the name was changed to become (University of Salahaddin). In 1992 University of Sulaimani was reestablished by tremendous efforts and enthusiasm of many Kurdish intellectuals and academics with the people of Sulaimani and was officially reopened on 14th of November. 
+        <image>https://univsul.edu.iq/doc/image/uos_building.jpg</image>
+        <button>
+            <text>Click here to find more</text>
+            <url>https://univsul.edu.iq/en/about-university-of-sulaimani</url>
+        </button>
+        
+        <button>
+            <text>Click me for list of collages</text>
+            <postback>Colleges</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MORE ^</pattern>
+        <template>
+            Watch this video to find more about the University
+            <video>https://youtu.be/7remcupVQj0</video>
+            <button>
+                <text>Video</text>
+                <url>https://youtu.be/7remcupVQj0</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ University ^</pattern>
+        <template><srai>^ about ^</srai></template>
+    </category>
+        
+    <category>
+        <pattern>^ Uni ^</pattern>
+        <template><srai>^ about ^</srai></template>
+    </category>   
+    
+    <category>
+        <pattern>^ UoS ^</pattern>
+        <template><srai>^ about ^</srai></template>
+    </category>
+    
+    
+	<!-- insert your AIML categories here -->
+</aiml>
